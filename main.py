@@ -32,4 +32,4 @@ for word, occurrences in output.items():
     sorted_output[word] = sentence_indices
 
 for word, indices in sorted_output.items():
-    print(f"{word}: {indices}")
+    print(f"{indices}")
